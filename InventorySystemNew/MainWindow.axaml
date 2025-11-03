@@ -1,0 +1,13 @@
+<Window
+    xmlns="https://github.com/avaloniaui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    x:Class="ItemSorterRobot.MainWindow"
+    Width="400" Height="200"
+    Title="Item Sorter Robot">
+
+    <StackPanel Margin="20">
+        <TextBlock Text="Velkommen til Item Sorter Robot!" FontSize="20" Margin="0,0,0,10"/>
+        <Button Content="Start Simulation" Click="Button_OnClick"/>
+    </StackPanel>
+
+</Window>
